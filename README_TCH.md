@@ -28,3 +28,11 @@ git pull
 ```
 
 在程式碼都已經部屬到本地後，請點擊 ```webui-user.bat``` ，會下載所需要的套件，可能需要等待一段時間。全部安裝完後，即可進入 ```http://127.0.0.1:7860/```
+
+當然，安裝結束後，只是能執行最原本的 Stable Diffusion，如果需要生成各式各樣的圖片，還是建議找適當的模型(LoRA、ckpt、safetensor)，還有適合的插件(影片、姿勢、輔助工具)。
+
+底下是一些推薦的插件安裝和介紹文檔：
+* [Ngrok](https://github.com/JingShing/Ngrok-in-StableDiffusion-tutorial/blob/main/README_TCH.md) 
+  連線類，可以幫助你分享 Stable Diffusion Webui 到公網，分享給朋友或遠端使用。
+* [controlNet](https://github.com/JingShing/How-to-install-controlNet/blob/main/README_TCH.md) 
+  工具類，可以使用骨架生成圖片。
