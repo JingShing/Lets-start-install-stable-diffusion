@@ -33,6 +33,8 @@ However, this is just the simplest Stable Diffusion. If you need to generate the
 
 Here are repositories for extensions instrodution and instruction：
 * [Ngrok](https://github.com/JingShing/Ngrok-in-StableDiffusion-tutorial/blob/main/README.md) 
+
   It can help you share Stable Diffusion Webui on public for friends and remote use.
 * [controlNet](https://github.com/JingShing/How-to-install-controlNet/blob/main/README.md) 
+
   It can use pose to generate images.
