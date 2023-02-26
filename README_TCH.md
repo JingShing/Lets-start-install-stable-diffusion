@@ -33,6 +33,8 @@ git pull
 
 底下是一些推薦的插件安裝和介紹文檔：
 * [Ngrok](https://github.com/JingShing/Ngrok-in-StableDiffusion-tutorial/blob/main/README_TCH.md) 
+
   連線類，可以幫助你分享 Stable Diffusion Webui 到公網，分享給朋友或遠端使用。
 * [controlNet](https://github.com/JingShing/How-to-install-controlNet/blob/main/README_TCH.md) 
+
   工具類，可以使用骨架生成圖片。
