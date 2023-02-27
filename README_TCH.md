@@ -31,6 +31,18 @@ git pull
 
 當然，安裝結束後，只是能執行最原本的 Stable Diffusion，如果需要生成各式各樣的圖片，還是建議找適當的模型(LoRA、ckpt、safetensor)，還有適合的插件(影片、姿勢、輔助工具)。
 
+## 補充
+如果在安裝後沒有什麼頭緒，不知道怎麼使用。我很推薦使用 txt2img(以字生圖) 的功能，可以更快的了解 Stable Diffusion 的作用以及如何使用這個工具。
+
+在開始使用 txt2img 或 img2img 前，建議您先取得模型(model)。這裡的模型是指透過圖片所訓練出來的，讓 AI 讀取並使用的資料訓練集。例如 ckpt、safetensor、LoRA 等等。這邊建議先以 ckpt 和 safetensor 入手。這邊推薦使用 [Anything v4.0](https://huggingface.co/andite/anything-v4.0/tree/main) 作為範例。
+
+下載完的 ckpt 和 safetensor 可以放入 Stable Diffusion Webui 安裝的資料夾下，model 中，的 stable diffusion 資料夾。具體如下路徑：
+
+```stable-diffusion-webui\models\Stable-diffusion```
+
+放入後，可以再啟動 ```webui-user.bat```，等到全部載入完。在網址輸入 ```http://127.0.0.1:7860/``` 打開 AI 的網頁後，在網頁的最上方即可選取之前下載的模型檔。等載入完畢即可使用。在 txt2img 的模式中，輸入完關鍵詞和參數後，就能夠點選 generate 生成圖片。
+
+# 其他插件
 底下是一些推薦的插件安裝和介紹文檔：
 * [Ngrok](https://github.com/JingShing/Ngrok-in-StableDiffusion-tutorial/blob/main/README_TCH.md) 
 
