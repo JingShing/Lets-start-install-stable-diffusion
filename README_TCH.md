@@ -40,6 +40,8 @@ git pull
 
 ```stable-diffusion-webui\models\Stable-diffusion```
 
+![model](image/model.png)
+
 放入後，可以再啟動 ```webui-user.bat```，等到全部載入完。在網址輸入 ```http://127.0.0.1:7860/``` 打開 AI 的網頁後，在網頁的最上方即可選取之前下載的模型檔。等載入完畢即可使用。在 txt2img 的模式中，輸入完關鍵詞和參數後，就能夠點選 generate 生成圖片。
 
 # 其他插件
